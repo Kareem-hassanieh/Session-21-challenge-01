@@ -15,3 +15,9 @@ code {
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.backdrop-blur {
+  backdrop-filter: blur(10px); /* Adjust the blur amount as needed */
+  -webkit-backdrop-filter: blur(10px); /* For Safari support */
+}
+

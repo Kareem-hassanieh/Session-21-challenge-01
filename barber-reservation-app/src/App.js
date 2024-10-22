@@ -24,7 +24,7 @@ function App() {
       {selectedSlot ? (
         <ReservationForm />
       ) : (
-        <div ref={reservationsRef} className="bg-[#d9ff00] flex justify-center items-center h-[100vh]">
+        <div ref={reservationsRef} className="bg-[#ffffff] flex justify-center h-[100vh]">
           <TimeSlots />
         </div>
       )}
